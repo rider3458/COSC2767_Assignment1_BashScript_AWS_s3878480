@@ -8,6 +8,10 @@ curl https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.t
 tar -xvzf /opt/tomcat.tar.gz
 mv apache-maven-3.8.6 maven
 mv apache-tomcat-9.0.64 tomcat
+M2=/opt/maven
+M2_HOME=/opt/maven/bin
+JAVA_HOME=$(find /usr/lib -name java-11*)
+export PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME
 ln -s /opt/tomcat/bin/startup.sh /usr/local/bin/tomcatup
 ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
-/usr/local/bin/tomcatup
+tomcatup
