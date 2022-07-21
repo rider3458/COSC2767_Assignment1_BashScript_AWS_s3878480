@@ -12,5 +12,5 @@ mv apache-tomcat-10.0.22 tomcat
 M2=/opt/maven
 M2_HOME=/opt/maven/bin
 JAVA_HOME=$(find /usr/lib -name java-11*)
-echo PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME >> ~/.bashrc
+echo PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME >> ~/.bash_profile
 /opt/tomcat/bin/startup.sh
