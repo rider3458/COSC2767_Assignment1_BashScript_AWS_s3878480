@@ -12,6 +12,4 @@ M2=/opt/maven
 M2_HOME=/opt/maven/bin
 JAVA_HOME=$(find /usr/lib -name java-11*)
 export PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME
-ln -s /opt/tomcat/bin/startup.sh /usr/local/bin/tomcatup
-ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
-tomcatup
+./opt/tomcat/bin/startup.sh
