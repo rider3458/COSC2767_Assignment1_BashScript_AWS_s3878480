@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo su -
 sudo amazon-linux-extras install -y java-openjdk11
+sudo yum install -y git
 curl https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz --output /opt/maven.tar.gz
 cd /opt
 tar -xvzf /opt/maven.tar.gz
