@@ -7,7 +7,7 @@ tar -xvzf /opt/maven.tar.gz
 curl https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.22/bin/apache-tomcat-10.0.22.tar.gz --output /opt/tomcat.tar.gz
 tar -xvzf /opt/tomcat.tar.gz
 mv apache-maven-3.8.6 maven
-mv apache-tomcat-9.0.64 tomcat
+mv apache-tomcat-10.0.22 tomcat
 M2=/opt/maven
 M2_HOME=/opt/maven/bin
 JAVA_HOME=$(find /usr/lib -name java-11*)
