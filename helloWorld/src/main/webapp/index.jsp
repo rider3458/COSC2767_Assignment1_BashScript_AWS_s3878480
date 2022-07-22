@@ -5,7 +5,7 @@
       <header class="Header">
           <ul>
               <li><a>About me</a></li>
-              <li><a href="https://github.com/rider3458"><img alt="avatar" class="Avatar" src="image/avatar.png"/></a></li>
+              <li><a href="https://github.com/rider3458"><img alt="avatar" class="Avatar" src="avatar.png"/></a></li>
               <li><a>This project</a></li>
           </ul>
       </header>
