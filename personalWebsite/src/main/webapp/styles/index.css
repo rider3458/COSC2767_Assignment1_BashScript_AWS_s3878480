@@ -1,3 +1,13 @@
+/*RMIT University Vietnam*/
+/*Course: COSC2767 Systems Deployment and Operations*/
+/*Semester: 2022B*/
+/*Assessment: Assignment 1*/
+/*Author: Du Duc Manh*/
+/*ID: 3878480*/
+/*Created date: 12/07/2022*/
+/*Last modified: 23-07-2022*/
+/*Acknowledgement: Acknowledge the resources that you use here.*/
+
 .Avatar {
   width: 120px;
   height: 120px;
@@ -59,4 +69,8 @@ body {
   background-color: #DBA11C;
   font-size: 15px;
   width: 70vw;
+}
+
+.TitleIcon {
+  font-size: 20px;
 }

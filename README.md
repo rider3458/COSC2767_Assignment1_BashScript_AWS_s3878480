@@ -5,5 +5,5 @@
   <p>Author: Du Duc Manh<p/>
   <p>ID: 3878480<p/>
   <p>Created  date: 12/07/2022<p/>
-  <p>Last modified: dd/mm/yyyy (e.g. 05/08/2022)<p/>
+  <p>Last modified: 23-07-2022<p/>
   <p>Acknowledgement: Acknowledge the resources that you use here.<p/>
