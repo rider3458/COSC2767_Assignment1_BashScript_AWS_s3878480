@@ -1,58 +1,62 @@
 .Avatar {
-  width: 45px;
-  height: 45px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: solid 1px black;
-  margin-bottom: -15px;
 }
 
-.Header {
-  text-align: center;
-}
-
-.Header ul {
-  white-space:nowrap;
-}
-
-.Header li {
-  display: inline-block;
-  margin: 10px
-}
-
-.Frame {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.Personal-info {
-  background-color: #282c34;
-  font-size: calc(10px + 2vmin);
+* {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
   color: white;
 }
 
-.Info-card {
-  background-color: #FFEDCB;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  padding: 10px;
-  margin: 10px;
+body {
+  margin: 0;
 }
 
-li {
+.AvatarWrapper {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.InfoList {
+  padding-right: 40px;
+}
+
+.Info-row {
+  margin-bottom: 15px;
+}
+
+.Info-type {
+  font-weight: bold;
+}
+
+.Frame {
+  min-height: 100vh;
+  padding: 80px 40px;
+}
+
+.PersonalInfo {
+  background-color: #282c34;
+  font-size: 15px;
+  width: 30vw;
+}
+
+.PersonalInfo li {
   list-style: none;
 }
 
-.Info-card-avatar {
-  flex: 1;
+.Project li {
+  list-style: decimal;
 }
 
 .Project {
   background-color: #DBA11C;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 15px;
+  width: 70vw;
 }
