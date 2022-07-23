@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.Avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: solid 1px black;
+  margin-bottom: -15px;
+}
+
+.Header {
+  position: sticky;
+}
+
+.Header ul {
+  white-space:nowrap;
+}
+
+.Header li {
+  display: inline-block;
+  margin: 10px
+}
+
+.Frame {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Personal-info {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Info-card {
+  background-color: #FFEDCB;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.Info-card-avatar {
+  flex: 1;
+}
+
+.Project {
+  background-color: #DBA11C;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

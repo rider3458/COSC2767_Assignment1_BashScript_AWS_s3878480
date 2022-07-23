@@ -38,9 +38,9 @@ Resources:
             export PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2:$M2_HOME
             cd /
             git clone 'https://rider3458:${Token}@github.com/rider3458/COSC2767_Assignment1_BashScript_AWS_s3878480.git'
-            cd COSC2767_Assignment1_BashScript_AWS_s3878480/helloWorld
+            cd COSC2767_Assignment1_BashScript_AWS_s3878480/personalWebsite
             mvn package
-            cp target/helloWorld.war /opt/tomcat/webapps
+            cp target/personalWebsite.war /opt/tomcat/webapps
             /opt/tomcat/bin/startup.sh
 
   ServerSG:
