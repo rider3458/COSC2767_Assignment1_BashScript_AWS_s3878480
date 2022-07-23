@@ -63,9 +63,9 @@ Resources:
       KeyName: "s3878480_key"
 
 Outputs:
-  PublicIp:
+  Website:
     Description: Server Public IP
     Value: !Join
       - ''
       - - !GetAtt TomcatServer.PublicIp
-        - ":8080"
+        - ":8080/personalWebsite"
