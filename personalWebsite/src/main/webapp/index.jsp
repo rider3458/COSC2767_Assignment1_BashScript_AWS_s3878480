@@ -16,6 +16,7 @@
     <script src="https://kit.fontawesome.com/11d5819750.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="font-mfizz-2.4.1/font-mfizz.css">
     <link rel="stylesheet" href="styles/index.css">
+    <title>Personal Website</title>
 </head>
 <body>
     <div class="App">

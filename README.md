@@ -1,12 +1,12 @@
-  <p>RMIT University Vietnam<p/>
-  <p>Course: COSC2767 Systems Deployment and Operations<p/>
-  <p>Semester: 2022B<p/>
-  <p>Assessment: Assignment 1<p/>
-  <p>Author: Du Duc Manh<p/>
-  <p>ID: 3878480<p/>
-  <p>Created  date: 12/07/2022<p/>
-  <p>Last modified: 24/07/2022<p/>
-  <p>Acknowledgement: AWS, AWS Java OpenJDK 11, Maven 3.8.6, Tomcat 10.0.22, fontawesome, font-mfizz-2.4.1.<p/>
+  <p>RMIT University Vietnam</p>
+  <p>Course: COSC2767 Systems Deployment and Operations</p>
+  <p>Semester: 2022B</p>
+  <p>Assessment: Assignment 1</p>
+  <p>Author: Du Duc Manh</p>
+  <p>ID: 3878480</p>
+  <p>Created  date: 12/07/2022</p>
+  <p>Last modified: 24/07/2022</p>
+  <p>Acknowledgement: AWS, AWS Java OpenJDK 11, Maven 3.8.6, Tomcat 10.0.22, fontawesome, font-mfizz-2.4.1.</p>
 
 
 <h1>About this project</h1>
