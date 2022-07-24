@@ -5,8 +5,8 @@
 <%--Author: Du Duc Manh--%>
 <%--ID: 3878480--%>
 <%--Created date: 12/07/2022--%>
-<%--Last modified: 23-07-2022--%>
-<%--Acknowledgement: Acknowledge the resources that you use here.--%>
+<%--Last modified: 24/07/2022--%>
+<%--Acknowledgement: AWS, AWS Java OpenJDK 11, Maven 3.8.6, Tomcat 10.0.22, fontawesome, font-mfizz-2.4.1--%>
 
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
