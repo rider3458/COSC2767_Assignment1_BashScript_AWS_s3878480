@@ -5,7 +5,7 @@
   <p>Author: Du Duc Manh</p>
   <p>ID: 3878480</p>
   <p>Created  date: 12/07/2022</p>
-  <p>Last modified: 24/07/2022</p>
+  <p>Last modified: 26/07/2022</p>
   <p>Acknowledgement: AWS, AWS Java OpenJDK 11, Maven 3.8.6, Tomcat 10.0.22, fontawesome, font-mfizz-2.4.1.</p>
 
 
@@ -17,16 +17,22 @@
 <ul>
     <li>
         An EC2 instance with a bash script in the UserData property. The instance will run that script in the first launch.
+        The VPC and subnet is not declared so AWS will assign the default VPC and a public subnet inside it.
     </li>
     <li>
         A key to be associated with the EC2 instance. Since it is created by using CloudFormation, the private key will be stored
-        as secure string in AWS System Manager Parameter Store.
+        as a secure string in AWS System Manager Parameter Store.
     </li>
     <li>
         A security group that allows inbound data to port 22 for SSH and port 8080 for Tomcat.
     </li>
 </ul>
 <p>
+    To launch the template from a CLI, put the access key, secret access key, and session token in the credentials file under .aws
+    directory. The region to launch the resources could be put there too. Else, you can use "aws configure" to input the mentioned
+    information.
+</p>
+<p>                                                                                                                                                                                                             
     In the script, there is a "git clone" command to download the remote private repo. Therefore, there is a parameter called Token
     to access the Github access token stored in AWS System Manager Parameter Store. The token must be saved in AWS System Manager
     Parameter Store before running the AWS CloudFormation template as CloudFormation will check for it and will not start if it cannot
