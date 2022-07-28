@@ -39,9 +39,10 @@
             <span>
                 <h1>
                     About this project
-                    <i class="icon-tomcat TitleIcon"></i>
+<!--                     <i class="icon-tomcat TitleIcon"></i>
                     <i class="icon-maven TitleIcon"></i>
-                    <i class="icon-aws TitleIcon"></i>
+                    <i class="icon-aws TitleIcon"></i> -->
+                    #No more icons
                 </h1>
             </span>
             <p>
